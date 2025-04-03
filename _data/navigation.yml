@@ -1,0 +1,11 @@
+main:
+  - title: "Team"
+    url: /team/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Resources"
+    url: /resources/
+  - title: "Opening"
+    url: /opening/
