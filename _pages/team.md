@@ -168,7 +168,7 @@ html[data-theme="dark"] .member__link:hover .member__card {
       </div>
       <div class="member__info">
         <h3 class="member__name">Sebastian Pohl</h3>
-        <p class="member__role">PhD Student</p>
+        <p class="member__role">Doctoral researcher</p>
       </div>
     </div>
 </div>
