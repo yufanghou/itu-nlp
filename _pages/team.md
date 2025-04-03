@@ -66,10 +66,6 @@ html[data-theme="dark"] .member__link:hover .member__card {
   font-weight: bold;
 }
 
-.member__name a {
-  white-space: nowrap;
-}
-
 .member__role {
   margin: 0;
   font-size: 0.9em;
@@ -132,7 +128,7 @@ html[data-theme="dark"] .member__link:hover .member__card {
         <img src="/images/massimiliano-pronesti.png" alt="Massimiliano Pronesti">
       </div>
       <div class="member__info">
-        <h3 class="member__name">Massimiliano Pronesti (Co-advise w/ <a href="https://www.dcu.ie/computing/people/anya-belz">Anya Belz</a>)</h3>
+        <h3 class="member__name">Massimiliano Pronesti (Co-advise w/<a href="https://www.dcu.ie/computing/people/anya-belz">Anya Belz</a>)</h3>
         <p class="member__role">PhD Student</p>
       </div>
     </div>
