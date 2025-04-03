@@ -1,9 +1,11 @@
 ---
 layout: single
-title: "Preprints"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
+## Preprints
 
 **Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation**
 
@@ -23,7 +25,7 @@ Aniket Pramanick, Yufang Hou, Saif M. Mohammad, Iryna Gurevych.
 In ArXiv, 2024
 [[pdf]](https://arxiv.org/abs/2409.19505)
 
-# 2025
+## 2025
 
 **Grounding Fallacies Misrepresenting Scientific Publications in Evidence**
 
@@ -32,7 +34,7 @@ In NAACL, 2025
 [[pdf]](https://www.arxiv.org/abs/2408.12812)
 
 
-# 2024
+## 2024
 
 **WikiContradict: A Benchmark for Evaluating LLMs on Real-World Knowledge Conflicts from Wikipedia**
 
