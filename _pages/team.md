@@ -150,7 +150,7 @@ html[data-theme="dark"] .member__link:hover .member__card {
 </div>
 
 <div class="member__container">
-  <a href="" class="member__link">
+  <a href="/404" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/minh-vu-pham.png" alt="Minh Vu Pham">
