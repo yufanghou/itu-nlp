@@ -177,20 +177,6 @@ html[data-theme="dark"] .member__link:hover .member__card {
   </a>
 </div>
 
-<div class="member__container">
-  <a href="/404" class="member__link">
-    <div class="member__card">
-      <div class="member__avatar">
-        <img src="/images/profile.png" alt="Sebastian Pohl">
-      </div>
-      <div class="member__info">
-        <h3 class="member__name">Sebastian Pohl</h3>
-        <p class="member__role">PhD Student</p>
-      </div>
-    </div>
-  </a>
-</div>
-
 ## Affiliated Members
 *(e.g. co-supervised or mentored external PhD students, guest researchers and visitors)*
 
