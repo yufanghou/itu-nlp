@@ -128,7 +128,7 @@ html[data-theme="dark"] .member__link:hover .member__card {
         <img src="/images/massimiliano-pronesti.png" alt="Massimiliano Pronesti">
       </div>
       <div class="member__info">
-        <h3 class="member__name">Massimiliano Pronesti <br /> (Co-advise w/<a href="https://www.dcu.ie/computing/people/anya-belz">Anya Belz</a>)</h3>
+        <h3 class="member__name">Massimiliano Pronesti <br /> (Co-advise w/ Anya Belz)</h3>
         <p class="member__role">PhD Student</p>
       </div>
     </div>
