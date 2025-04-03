@@ -23,11 +23,11 @@ repository               : "ITU-NLP/itu-nlp.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "IT:U-NLP"
+  name             : ""
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar."
+  bio              : ""
   location         : "Linz, Austria"
-  email            : "none@example.org" 
+  email            : "" 
 
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : 
