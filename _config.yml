@@ -13,9 +13,9 @@ title                    : "IT:U-NLP"
 title_separator          : "-"
 name                     : &name "IT:U-NLP"
 description              : &description "Lorem ipsum."
-url                      : https://yufanghou.github.io/itu-nlp
+url                      : https://itu-nlp.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yufanghou/itu-nlp"
+repository               : "ITU-NLP/itu-nlp.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
