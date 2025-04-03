@@ -92,28 +92,28 @@ html[data-theme="dark"] .member__link:hover .member__card {
 ## Postdocs
 
 <div class="member__container">
-  <a href="https://github.com/hsuvas" class="member__link">
+  <a href="https://hsuvas.wixsite.com/hsuvas" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/hsuvas-borkakoty.png" alt="Hsuvas Borkakoty">
       </div>
       <div class="member__info">
         <h3 class="member__name">Hsuvas Borkakoty</h3>
-        <p class="member__role">Postdoctoral Research</p>
+        <p class="member__role">Postdoctoral researcher</p>
       </div>
     </div>
   </a>
 </div>
 
 <div class="member__container">
-  <a href="https://github.com/arsalan98m" class="member__link">
+  <a href="https://marslanm.github.io/" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/muhammad-arslan-manzoor.png" alt="Muhammad Arslan Manzoor">
       </div>
       <div class="member__info">
         <h3 class="member__name">Muhammad Arslan Manzoor</h3>
-        <p class="member__role">Postdoctoral Research</p>
+        <p class="member__role">Postdoctoral researcher</p>
       </div>
     </div>
   </a>
@@ -128,8 +128,9 @@ html[data-theme="dark"] .member__link:hover .member__card {
         <img src="/images/massimiliano-pronesti.png" alt="Massimiliano Pronesti">
       </div>
       <div class="member__info">
-        <h3 class="member__name">Massimiliano Pronesti <br /> (Co-advise w/ Anya Belz)</h3>
-        <p class="member__role">PhD Student</p>
+        <h3 class="member__name">Massimiliano Pronesti</h3>
+        <p class="member__role">(Co-advise w/ Anya Belz)</p>
+        <p class="member__role">Doctoral researcher</p>
       </div>
     </div>
   </a>
@@ -143,28 +144,25 @@ html[data-theme="dark"] .member__link:hover .member__card {
       </div>
       <div class="member__info">
         <h3 class="member__name">Debanjana Kar</h3>
-        <p class="member__role">PhD Student</p>
+        <p class="member__role">Doctoral researcher</p>
       </div>
     </div>
   </a>
 </div>
 
 <div class="member__container">
-  <a href="/404" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/minh-vu-pham.png" alt="Minh Vu Pham">
       </div>
       <div class="member__info">
         <h3 class="member__name">Minh Vu Pham</h3>
-        <p class="member__role">PhD Student</p>
+        <p class="member__role">Doctoral researcher</p>
       </div>
     </div>
-  </a>
 </div>
 
 <div class="member__container">
-  <a href="/404" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/profile.png" alt="Sebastian Pohl">
@@ -174,7 +172,6 @@ html[data-theme="dark"] .member__link:hover .member__card {
         <p class="member__role">PhD Student</p>
       </div>
     </div>
-  </a>
 </div>
 
 ## Affiliated Members
@@ -237,7 +234,6 @@ html[data-theme="dark"] .member__link:hover .member__card {
 </div>
 
 <div class="member__container">
-  <a href="/404" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/profile.png" alt="Paul Flanagan">
@@ -247,11 +243,9 @@ html[data-theme="dark"] .member__link:hover .member__card {
         <p class="member__role">External mentored Master student, DCU</p>
       </div>
     </div>
-  </a>
 </div>
 
 <div class="member__container">
-  <a href="/404" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/profile.png" alt="Oisín Redmond">
@@ -261,5 +255,4 @@ html[data-theme="dark"] .member__link:hover .member__card {
         <p class="member__role">External mentored Master student, DCU</p>
       </div>
     </div>
-  </a>
 </div>
