@@ -190,3 +190,90 @@ html[data-theme="dark"] .member__link:hover .member__card {
     </div>
   </a>
 </div>
+
+## Affiliated Members
+*(e.g. co-supervised or mentored external PhD students, guest researchers and visitors)*
+
+<div class="member__container">
+  <a href="https://scholar.google.com/citations?user=w4sHiMMAAAAJ&hl=en" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/max_glockner.png" alt="Max Glockner">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Max Glockner</h3>
+        <p class="member__role">External mentored PhD student, UKP, TU-Darmstadt</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="https://scholar.google.com/citations?user=u-iQFJIAAAAJ" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/andreas-waldis.jpg" alt="Andreas Waldis">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Andreas Waldis</h3>
+        <p class="member__role">External mentored PhD student, UKP, TU-Darmstadt</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="https://aniket-pramanick.github.io/" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/aniket-pramanick.png" alt="Aniket Pramanick">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Aniket Pramanick</h3>
+        <p class="member__role">External mentored PhD student, UKP, TU-Darmstadt</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="https://github.com/furkansahinuc" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/furkan-şahinuç.png" alt="Furkan Şahinuç">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Furkan Şahinuç</h3>
+        <p class="member__role">External mentored PhD student, UKP, TU-Darmstadt</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="/404" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/profile.png" alt="Paul Flanagan">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Paul Flanagan</h3>
+        <p class="member__role">External mentored Master student, DCU</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="/404" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/profile.png" alt="Oisín Redmond">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Oisín Redmond</h3>
+        <p class="member__role">External mentored Master student, DCU</p>
+      </div>
+    </div>
+  </a>
+</div>
