@@ -13,7 +13,7 @@ title                    : "IT:U-NLP"
 title_separator          : "-"
 name                     : &name "IT:U-NLP"
 description              : &description "Lorem ipsum."
-url                      : https://itu-nlp.github.io/
+url                      : https://itu-nlp.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ITU-NLP/itu-nlp.github.io"
 
