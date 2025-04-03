@@ -220,7 +220,7 @@ html[data-theme="dark"] .member__link:hover .member__card {
 </div>
 
 <div class="member__container">
-  <a href="https://github.com/furkansahinuc" class="member__link">
+  <a href="https://furkansahinuc.github.io/" class="member__link">
     <div class="member__card">
       <div class="member__avatar">
         <img src="/images/furkan-şahinuç.png" alt="Furkan Şahinuç">
