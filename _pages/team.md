@@ -118,3 +118,75 @@ html[data-theme="dark"] .member__link:hover .member__card {
     </div>
   </a>
 </div>
+
+## PhD Students
+
+<div class="member__container">
+  <a href="https://github.com/mspronesti" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/massimiliano-pronesti.png" alt="Massimiliano Pronesti">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Massimiliano Pronesti (Co-advise w/ <a href="https://www.dcu.ie/computing/people/anya-belz">Anya Belz</a>)</h3>
+        <p class="member__role">PhD Student</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="https://github.com/DebanjanaKar" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/debanjana-kar.png" alt="Debanjana Kar">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Debanjana Kar</h3>
+        <p class="member__role">PhD Student</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/minh-vu-pham.png" alt="Minh Vu Pham">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Minh Vu Pham</h3>
+        <p class="member__role">PhD Student</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="/404" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/profile.png" alt="Sebastian Pohl">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Sebastian Pohl</h3>
+        <p class="member__role">PhD Student</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="member__container">
+  <a href="/404" class="member__link">
+    <div class="member__card">
+      <div class="member__avatar">
+        <img src="/images/profile.png" alt="Sebastian Pohl">
+      </div>
+      <div class="member__info">
+        <h3 class="member__name">Sebastian Pohl</h3>
+        <p class="member__role">PhD Student</p>
+      </div>
+    </div>
+  </a>
+</div>
