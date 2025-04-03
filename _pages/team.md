@@ -66,6 +66,10 @@ html[data-theme="dark"] .member__link:hover .member__card {
   font-weight: bold;
 }
 
+.member__name a {
+  white-space: nowrap;
+}
+
 .member__role {
   margin: 0;
   font-size: 0.9em;
