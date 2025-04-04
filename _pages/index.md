@@ -16,6 +16,8 @@ Welcome to the IT:U NLP Lab! Our overarching research goals are twofold: (a) to 
 
 ## Recent News
 
+**04/2025**: A warm welcome to Zhanting and Dmitry, who will be joining us as intern
+
 **03/2025**: Minh and Debanjana have officially joined us at the IT:U-NLP Lab as our newest PhD students!
 
 **02/2025**: Yufang gave an invited talk “Empowering Science with AI: Building NLP Models for Scientific Knowledge Synthesis and Fact-checking” at the Salzburg HCI Doctoral Consortium Week Winter 2024/2025 on Feb 25th.
