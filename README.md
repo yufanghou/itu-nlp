@@ -1,6 +1,6 @@
 ## [IT:U-NLP Website](https://itu-nlp.github.io/)
 
-Website designed for the IT:U-NLP group.
+Website designed for the [IT:U-NLP](https://it-u.at/en/research/research-groups/natural-language-processing/) group.
 
 ## Deployment
 
