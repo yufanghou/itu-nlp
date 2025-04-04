@@ -20,8 +20,8 @@ author_profile: true
         <p>Please fill out the form below if you are interested in joining our lab.</p>
         <p>We strongly encourage you to visit the IT:U NLP group's page to explore our current research topics before applying.</p>
         <div class="button-container">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVnllFyucGh7IdlUMiz_R7Q4IUucIQqzlyC7KB9Vs7CnDPVQ/viewform" class="btn btn-custom">Application Form</a>
-          <a href="https://it-u.at/en/research/research-groups/natural-language-processing/" class="btn btn-custom">IT:U-NLP Group Page</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVnllFyucGh7IdlUMiz_R7Q4IUucIQqzlyC7KB9Vs7CnDPVQ/viewform" class="btn btn-custom">Application Form <i class="fas fa-external-link-alt"></i></a>
+          <a href="https://it-u.at/en/research/research-groups/natural-language-processing/" class="btn btn-custom">IT:U-NLP Group Page <i class="fas fa-external-link-alt"></i></a>
         </div>
       </div>
     </div>
@@ -38,19 +38,19 @@ author_profile: true
       
       <a href="https://ec.europa.eu/research/mariecurieactions/" target="_blank" class="funding-card-link">
         <div class="funding-card">
-          <h3 class="funding-title">Marie-Curie Postdoctoral Fellowships</h3>
+          <h3 class="funding-title">Marie-Curie Postdoctoral Fellowships <i class="fas fa-external-link-alt"></i></h3>
         </div>
       </a>
       
       <a href="https://www.fwf.ac.at/en/research-funding/fwf-programmes/esprit-programme" target="_blank" class="funding-card-link">
         <div class="funding-card">
-          <h3 class="funding-title">FWF ESPRIT Career Advancement for Postdocs</h3>
+          <h3 class="funding-title">FWF ESPRIT Career Advancement for Postdocs <i class="fas fa-external-link-alt"></i></h3>
         </div>
       </a>
       
       <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/" target="_blank" class="funding-card-link">
         <div class="funding-card">
-          <h3 class="funding-title">Leopoldina Postdoc Scholarship</h3>
+          <h3 class="funding-title">Leopoldina Postdoc Scholarship <i class="fas fa-external-link-alt"></i></h3>
           <p class="funding-subtitle">(incoming from Germany, Austria, or Switzerland)</p>
         </div>
       </a>
@@ -59,12 +59,30 @@ author_profile: true
 </div>
 
 <style>
+  :root {
+    --card-bg: white;
+    --card-text: #333;
+    --card-subtitle: #666;
+    --container-bg: #f9f9f9;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-hover: rgba(0, 0, 0, 0.15);
+  }
+
+  html.dark {
+    --card-bg: #2d2d2d;
+    --card-text: #e0e0e0;
+    --card-subtitle: #b0b0b0;
+    --container-bg: #1e1e1e;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --shadow-hover: rgba(0, 0, 0, 0.4);
+  }
+
   .opening-container {
-    background-color: #f9f9f9;
+    background-color: var(--container-bg);
     border-radius: 8px;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px var(--shadow-color);
   }
 
   .opening-header {
@@ -86,7 +104,7 @@ author_profile: true
   .lead {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #555;
+    color: var(--card-text);
   }
 
   .opening-application, .opening-positions {
@@ -94,23 +112,25 @@ author_profile: true
   }
 
   .application-card {
-    background-color: white;
+    background-color: var(--card-bg);
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px var(--shadow-color);
     margin-bottom: 20px;
   }
 
   .card-content {
     padding: 20px;
+    color: var(--card-text);
   }
 
   .button-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     gap: 15px;
     margin-top: 20px;
+    flex-wrap: wrap;
   }
 
   .btn {
@@ -132,9 +152,19 @@ author_profile: true
     text-decoration: none !important;
   }
 
+  .btn i {
+    margin-left: 5px;
+    font-size: 0.8em;
+  }
+
   .opening-positions h1 {
     margin-bottom: 15px;
     font-size: 2em;
+    color: var(--card-text);
+  }
+
+  .opening-positions p {
+    color: var(--card-text);
   }
 
   .funding-cards {
@@ -145,10 +175,10 @@ author_profile: true
   }
 
   .funding-card {
-    background-color: white;
+    background-color: var(--card-bg);
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px var(--shadow-color);
   }
 
   .funding-card-link {
@@ -162,7 +192,7 @@ author_profile: true
   }
 
   .funding-card-link:hover .funding-card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 8px var(--shadow-hover);
     transform: translateY(-2px);
     transition: all 0.3s ease;
   }
@@ -170,13 +200,21 @@ author_profile: true
   .funding-title {
     margin: 0;
     font-size: 1.2em;
-    color: #333;
+    color: var(--card-text);
+    display: flex;
+    align-items: center;
+  }
+
+  .funding-title i {
+    margin-left: 8px;
+    font-size: 0.8em;
+    color: #4285f4;
   }
 
   .funding-subtitle {
     margin-top: 8px;
     font-size: 0.9em;
-    color: #666;
+    color: var(--card-subtitle);
   }
 
   @media (max-width: 768px) {
@@ -186,6 +224,11 @@ author_profile: true
     
     .opening-header h1 {
       font-size: 2em;
+    }
+    
+    .button-container {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 </style>
