@@ -20,8 +20,8 @@ author_profile: true
         <p>Please fill out the form below if you are interested in joining our lab.</p>
         <p>We strongly encourage you to visit the IT:U NLP group's page to explore our current research topics before applying.</p>
         <div class="button-container">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVnllFyucGh7IdlUMiz_R7Q4IUucIQqzlyC7KB9Vs7CnDPVQ/viewform" class="btn btn-custom">Application Form <i class="fas fa-external-link-alt"></i></a>
-          <a href="https://it-u.at/en/research/research-groups/natural-language-processing/" class="btn btn-custom">IT:U-NLP Group Page <i class="fas fa-external-link-alt"></i></a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVnllFyucGh7IdlUMiz_R7Q4IUucIQqzlyC7KB9Vs7CnDPVQ/viewform" target="_blank" class="btn btn-custom">Application Form <i class="fas fa-external-link-alt"></i></a>
+          <a href="https://it-u.at/en/research/research-groups/natural-language-processing/" target="_blank" class="btn btn-custom">IT:U NLP Group Page <i class="fas fa-external-link-alt"></i></a>
         </div>
       </div>
     </div>
