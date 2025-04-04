@@ -13,7 +13,7 @@ author_profile: true
     <p class="lead">We are currently looking for postdoctoral researchers, PhD students, visiting students, and intern students to join the IT:U NLP lab!</p>
   </div>
 
-  <h3>How to Apply</h3>
+  <h1>How to Apply</h1>
   <div class="opening-application">
     <div class="application-card">
       <div class="card-content">
