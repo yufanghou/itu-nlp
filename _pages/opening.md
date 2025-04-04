@@ -29,7 +29,7 @@ author_profile: true
 
   <div class="opening-positions">
     <h1>Postdoctoral Researchers</h1>
-    <p>If you want to carry out research in our group as a <strong>post-doc</strong>, there are several funding possibilities:</p>
+    <p>If you want to carry out research in our group as a post-doc, there are several funding possibilities:</p>
     
     <div class="funding-cards">
       <div class="funding-card">
