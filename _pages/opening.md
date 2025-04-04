@@ -13,10 +13,10 @@ author_profile: true
     <p class="lead">We are currently looking for postdoctoral researchers, PhD students, visiting students, and intern students to join the IT:U NLP lab!</p>
   </div>
 
+  <h3>How to Apply</h3>
   <div class="opening-application">
     <div class="application-card">
       <div class="card-content">
-        <h3>How to Apply</h3>
         <p>Please fill out the form below if you are interested in joining our lab.</p>
         <p>We strongly encourage you to visit the IT:U NLP group's page to explore our current research topics before applying.</p>
         <div class="button-container">
@@ -36,27 +36,24 @@ author_profile: true
         <h3 class="funding-title">IT:U Postdoc Program</h3>
       </div>
       
-      <div class="funding-card">
-        <h3 class="funding-title">
-          <a href="https://ec.europa.eu/research/mariecurieactions/">Marie-Curie Postdoctoral Fellowships</a>
-          <i class="fas fa-external-link-alt"></i>
-        </h3>
-      </div>
+      <a href="https://ec.europa.eu/research/mariecurieactions/" class="funding-card-link">
+        <div class="funding-card">
+          <h3 class="funding-title">Marie-Curie Postdoctoral Fellowships</h3>
+        </div>
+      </a>
       
-      <div class="funding-card">
-        <h3 class="funding-title">
-          <a href="https://www.fwf.ac.at/en/research-funding/fwf-programmes/esprit-programme">FWF ESPRIT Career Advancement for Postdocs</a>
-          <i class="fas fa-external-link-alt"></i>
-        </h3>
-      </div>
+      <a href="https://www.fwf.ac.at/en/research-funding/fwf-programmes/esprit-programme" class="funding-card-link">
+        <div class="funding-card">
+          <h3 class="funding-title">FWF ESPRIT Career Advancement for Postdocs</h3>
+        </div>
+      </a>
       
-      <div class="funding-card">
-        <h3 class="funding-title">
-          <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/">Leopoldina Postdoc Scholarship</a>
-          <i class="fas fa-external-link-alt"></i>
-        </h3>
-        <p class="funding-subtitle">(incoming from Germany, Austria, or Switzerland)</p>
-      </div>
+      <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/" class="funding-card-link">
+        <div class="funding-card">
+          <h3 class="funding-title">Leopoldina Postdoc Scholarship</h3>
+          <p class="funding-subtitle">(incoming from Germany, Austria, or Switzerland)</p>
+        </div>
+      </a>
     </div>
   </div>
 </div>
@@ -71,7 +68,7 @@ author_profile: true
   }
 
   .opening-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
 
@@ -110,9 +107,9 @@ author_profile: true
 
   .button-container {
     display: flex;
+    flex-direction: column;
     gap: 15px;
     margin-top: 20px;
-    flex-wrap: wrap;
   }
 
   .btn {
@@ -125,12 +122,12 @@ author_profile: true
   }
 
   .btn-custom {
-    background-color: #a8d1ff;
+    background-color: #86bfff;
     color: #333;
   }
 
   .btn-custom:hover {
-    background-color: #86bfff;
+    background-color: #6baeff;
     text-decoration: none;
   }
 
@@ -140,8 +137,8 @@ author_profile: true
   }
 
   .funding-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     margin-top: 20px;
   }
@@ -153,27 +150,22 @@ author_profile: true
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
+  .funding-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .funding-card-link:hover .funding-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+
   .funding-title {
     margin: 0;
     font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .funding-title a {
-    color: #4285f4;
-    text-decoration: none;
-  }
-
-  .funding-title a:hover {
-    text-decoration: underline;
-  }
-
-  .funding-title i {
-    font-size: 0.8em;
-    margin-left: 8px;
-    color: #4285f4;
+    color: #333;
   }
 
   .funding-subtitle {
@@ -189,15 +181,6 @@ author_profile: true
     
     .opening-header h1 {
       font-size: 2em;
-    }
-    
-    .funding-cards {
-      grid-template-columns: 1fr;
-    }
-    
-    .button-container {
-      flex-direction: column;
-      gap: 10px;
     }
     
     .btn {
