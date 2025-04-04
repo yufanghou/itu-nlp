@@ -52,16 +52,22 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
 .publication__info {
   margin-bottom: 0.5em;
   font-size: 0.95em;
-  padding-left: 1.75em;
-  text-indent: -1.75em;
+  display: flex;
+  align-items: flex-start;
   line-height: 1.4;
 }
 
 .publication__info i {
   width: 1.25em;
   text-align: center;
-  margin-right: 0.5em;
+  margin-right: 0.75em;
   color: var(--global-theme-color);
+  flex-shrink: 0;
+  padding-top: 0.2em;
+}
+
+.publication__info-text {
+  flex: 1;
 }
 </style>
 
@@ -72,13 +78,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Steffen Eger, Yong Cao, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Steffen Eger, Yong Cao, Jennifer D'Souza, Andreas Geiger, Christian Greisinger, Stephanie Gross, Yufang Hou, Brigitte Krenn, Anne Lauscher, Yizhi Li, Chenghua Lin, Nafise Sadat Moosavi, Wei Zhao, Tristan Miller</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> ArXiv
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">ArXiv</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2025
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2025</div>
       </div>
     </div>
   </a>
@@ -89,13 +98,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">FactReasoner: A Probabilistic Approach to Long-Form Factuality Assessment for Large Language Models</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Radu Marinescu, Debarun Bhattacharjya, Junkyu Lee, Tigran Tchrakian, Javier Carnerero Cano, Yufang Hou, Elizabeth Daly, Alessandra Pascale
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Radu Marinescu, Debarun Bhattacharjya, Junkyu Lee, Tigran Tchrakian, Javier Carnerero Cano, Yufang Hou, Elizabeth Daly, Alessandra Pascale</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> ArXiv
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">ArXiv</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2025
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2025</div>
       </div>
     </div>
   </a>
@@ -106,13 +118,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">The Nature of NLP: Analyzing Contributions in NLP Papers</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Aniket Pramanick, Yufang Hou, Saif M. Mohammad, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Aniket Pramanick, Yufang Hou, Saif M. Mohammad, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> ArXiv
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">ArXiv</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -125,13 +140,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">Grounding Fallacies Misrepresenting Scientific Publications in Evidence</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Max Glockner, Yufang Hou, Preslav Nakov, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Max Glockner, Yufang Hou, Preslav Nakov, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> NAACL
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">NAACL</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2025
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2025</div>
       </div>
     </div>
   </a>
@@ -144,13 +162,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">WikiContradict: A Benchmark for Evaluating LLMs on Real-World Knowledge Conflicts from Wikipedia</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Yufang Hou, Alessandra Pascale, Javier Carnerero-Cano, Tigran Tchrakian, Radu Marinescu, Elizabeth Daly, Inkit Padhi, Prasanna Sattigeri
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Yufang Hou, Alessandra Pascale, Javier Carnerero-Cano, Tigran Tchrakian, Radu Marinescu, Elizabeth Daly, Inkit Padhi, Prasanna Sattigeri</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> NeurIPS D&B Track
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">NeurIPS D&B Track</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -161,13 +182,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Furkan Sahinuç, Thy Thy Tran, Yulia Grishina, Yufang Hou, Bei Chen, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Furkan Sahinuç, Thy Thy Tran, Yulia Grishina, Yufang Hou, Bei Chen, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> EMNLP
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">EMNLP</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -178,13 +202,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">SciDoc2Diagrammer-MAF: Towards Generation of Scientific Diagrams from Documents guided by Multi-Aspect Feedback Refinement</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Ishani Mondal, Zongxia Li, Yufang Hou, Anandhavelu Natarajan, Aparna Garimella, Jordan Lee Boyd-Graber
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Ishani Mondal, Zongxia Li, Yufang Hou, Anandhavelu Natarajan, Aparna Garimella, Jordan Lee Boyd-Graber</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> EMNLP Findings
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">EMNLP Findings</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -195,13 +222,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">MISSCI: Reconstructing Fallacies in Misrepresented Science</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Max Glockner, Yufang Hou, Preslav Nakov, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Max Glockner, Yufang Hou, Preslav Nakov, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> ACL
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">ACL</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -212,13 +242,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">How to Handle Different Types of Out-of-Distribution Scenarios in Computational Argumentation? A Comprehensive and Fine-Grained Field Study</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Andreas Waldis, Yufang Hou, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Andreas Waldis, Yufang Hou, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> ACL
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">ACL</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -229,13 +262,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">A Course Shared Task on Evaluating LLM Output for Clinical Questions</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Yufang Hou, Thy Thy Tran, Doan Nam Long Vu, Yiwen Cao, Kai Li, Lukas Rohde, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Yufang Hou, Thy Thy Tran, Doan Nam Long Vu, Yiwen Cao, Kai Li, Lukas Rohde, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> Proceedings of the 6th Workshop on Teaching NLP at ACL 2024
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">Proceedings of the 6th Workshop on Teaching NLP at ACL 2024</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -246,13 +282,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">Beyond Abstracts: A New Dataset, Prompt Design Strategy and Method for Biomedical Synthesis Generation</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> James O'Doherty, Cian Nolan, Yufang Hou, Anya Belz
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">James O'Doherty, Cian Nolan, Yufang Hou, Anya Belz</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> ACL Student Research Workshop
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">ACL Student Research Workshop</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -263,13 +302,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">On the Role of Summary Content Units in Text Summarization Evaluation</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Marcel Nawrath, Agnieszka Wiktoria Nowak, Tristan Ratz, Danilo Constantin Walenta, Juri Opitz, Leonardo F. R. Ribeiro, João Sedoc, Daniel Deutsch, Simon Mille, Yixin Liu, Sebastian Gehrmann, Lining Zhang, Saad Mahamood, Miruna Clinciu, Khyathi Chandu, Yufang Hou
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Marcel Nawrath, Agnieszka Wiktoria Nowak, Tristan Ratz, Danilo Constantin Walenta, Juri Opitz, Leonardo F. R. Ribeiro, João Sedoc, Daniel Deutsch, Simon Mille, Yixin Liu, Sebastian Gehrmann, Lining Zhang, Saad Mahamood, Miruna Clinciu, Khyathi Chandu, Yufang Hou</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> NAACL
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">NAACL</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -280,13 +322,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">Dive into the Chasm: Probing the Gap between In- and Cross-Topic Generalization</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Andreas Waldis, Yufang Hou, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Andreas Waldis, Yufang Hou, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> EACL Findings
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">EACL Findings</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
@@ -297,13 +342,16 @@ html[data-theme="dark"] .publication__link:hover .publication__card {
     <div class="publication__card">
       <h3 class="publication__title">Holmes: Benchmark the Linguistic Competence of Language Models</h3>
       <div class="publication__info">
-        <i class="fas fa-pen-fancy"></i> Andreas Waldis, Yotam Perlitz, Leshem Choshen, Yufang Hou, Iryna Gurevych
+        <i class="fas fa-feather-alt"></i>
+        <div class="publication__info-text">Andreas Waldis, Yotam Perlitz, Leshem Choshen, Yufang Hou, Iryna Gurevych</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-map-marker-alt"></i> TACL
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="publication__info-text">TACL</div>
       </div>
       <div class="publication__info">
-        <i class="fas fa-calendar-alt"></i> 2024
+        <i class="fas fa-calendar-alt"></i>
+        <div class="publication__info-text">2024</div>
       </div>
     </div>
   </a>
