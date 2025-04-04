@@ -66,6 +66,8 @@ author_profile: true
     --container-bg: #f9f9f9;
     --shadow-color: rgba(0, 0, 0, 0.1);
     --shadow-hover: rgba(0, 0, 0, 0.15);
+    --heading-text: #333;
+    --highlight-bg: rgba(66, 133, 244, 0.2);
   }
 
   html.dark {
@@ -75,6 +77,8 @@ author_profile: true
     --container-bg: #1e1e1e;
     --shadow-color: rgba(0, 0, 0, 0.3);
     --shadow-hover: rgba(0, 0, 0, 0.4);
+    --heading-text: #ffffff;
+    --highlight-bg: rgba(66, 133, 244, 0.3);
   }
 
   .opening-container {
@@ -85,6 +89,10 @@ author_profile: true
     box-shadow: 0 4px 6px var(--shadow-color);
   }
 
+  .opening-container h1 {
+    color: var(--heading-text);
+  }
+
   .opening-header {
     text-align: left;
     margin-bottom: 30px;
@@ -93,10 +101,11 @@ author_profile: true
   .opening-header h1 {
     font-size: 2.5em;
     margin-bottom: 15px;
+    color: var(--heading-text);
   }
 
   .highlight {
-    background: linear-gradient(120deg, rgba(66, 133, 244, 0.2) 0%, rgba(66, 133, 244, 0.2) 100%);
+    background: linear-gradient(120deg, var(--highlight-bg) 0%, var(--highlight-bg) 100%);
     padding: 0 10px;
     border-radius: 4px;
   }
@@ -160,7 +169,7 @@ author_profile: true
   .opening-positions h1 {
     margin-bottom: 15px;
     font-size: 2em;
-    color: var(--card-text);
+    color: var(--heading-text);
   }
 
   .opening-positions p {
