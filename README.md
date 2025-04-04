@@ -6,7 +6,7 @@ Visit the website [here](https://yufanghou.github.io/itu-nlp).
 
 ## Deployment
 
-The website is automatically deployed on every push to the `main` branch using [GitHub actions](https://github.com/ITU-NLP/itu-nlp.github.io/tree/main/.github/workflows).
+The website is automatically deployed to GitHub pages on every push to the `main` branch using [GitHub actions](https://github.com/ITU-NLP/itu-nlp.github.io/tree/main/.github/workflows).
 
 ## Credit
 
