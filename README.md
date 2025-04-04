@@ -1,8 +1,6 @@
-## IT:U-NLP Website
+## [IT:U-NLP Website](https://itu-nlp.github.io/)
 
 Website designed for the IT:U-NLP group.
-
-Visit the website [here](https://yufanghou.github.io/itu-nlp).
 
 ## Deployment
 
