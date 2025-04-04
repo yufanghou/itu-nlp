@@ -36,19 +36,19 @@ author_profile: true
         <h3 class="funding-title">IT:U Postdoc Program</h3>
       </div>
       
-      <a href="https://ec.europa.eu/research/mariecurieactions/" class="funding-card-link">
+      <a href="https://ec.europa.eu/research/mariecurieactions/" target="_blank" class="funding-card-link">
         <div class="funding-card">
           <h3 class="funding-title">Marie-Curie Postdoctoral Fellowships</h3>
         </div>
       </a>
       
-      <a href="https://www.fwf.ac.at/en/research-funding/fwf-programmes/esprit-programme" class="funding-card-link">
+      <a href="https://www.fwf.ac.at/en/research-funding/fwf-programmes/esprit-programme" target="_blank" class="funding-card-link">
         <div class="funding-card">
           <h3 class="funding-title">FWF ESPRIT Career Advancement for Postdocs</h3>
         </div>
       </a>
       
-      <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/" class="funding-card-link">
+      <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/" target="_blank" class="funding-card-link">
         <div class="funding-card">
           <h3 class="funding-title">Leopoldina Postdoc Scholarship</h3>
           <p class="funding-subtitle">(incoming from Germany, Austria, or Switzerland)</p>
