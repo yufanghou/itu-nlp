@@ -108,6 +108,7 @@ author_profile: true
   .button-container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 15px;
     margin-top: 20px;
   }
@@ -116,7 +117,7 @@ author_profile: true
     display: inline-block;
     padding: 10px 20px;
     border-radius: 4px;
-    text-decoration: none;
+    text-decoration: none !important;
     font-weight: bold;
     transition: background-color 0.3s;
   }
@@ -128,7 +129,7 @@ author_profile: true
 
   .btn-custom:hover {
     background-color: #6baeff;
-    text-decoration: none;
+    text-decoration: none !important;
   }
 
   .opening-positions h1 {
@@ -151,9 +152,13 @@ author_profile: true
   }
 
   .funding-card-link {
-    text-decoration: none;
+    text-decoration: none !important;
     color: inherit;
     display: block;
+  }
+
+  .funding-card-link:hover {
+    text-decoration: none !important;
   }
 
   .funding-card-link:hover .funding-card {
@@ -181,11 +186,6 @@ author_profile: true
     
     .opening-header h1 {
       font-size: 2em;
-    }
-    
-    .btn {
-      width: 100%;
-      text-align: center;
     }
   }
 </style>
