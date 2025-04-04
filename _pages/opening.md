@@ -10,52 +10,52 @@ author_profile: true
 <div class="opening-container">
   <div class="opening-header">
     <h1><span class="highlight">Join Our Team</span></h1>
-    <p class="lead">We are currently looking for postdoctoral researchers, PhD students, visiting students, and intern students to join the <a href="https://it-u.at/en/research/research-groups/natural-language-processing/" class="highlight-link">IT:U NLP lab</a>!</p>
+    <p class="lead">We are currently looking for postdoctoral researchers, PhD students, visiting students, and intern students to join the IT:U NLP lab!</p>
   </div>
 
   <div class="opening-application">
     <div class="application-card">
-      <div class="card-icon">
-        <i class="fas fa-file-alt"></i>
-      </div>
       <div class="card-content">
         <h3>How to Apply</h3>
-        <p>Please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVnllFyucGh7IdlUMiz_R7Q4IUucIQqzlyC7KB9Vs7CnDPVQ/viewform" class="btn btn-info">this form</a> (feel free to skip some questions) if you are interested in joining our lab.</p>
-        <p>We strongly encourage you to visit the <a href="https://it-u.at/en/research/research-groups/natural-language-processing/">IT:U NLP group's page</a> to explore our current research topics before applying.</p>
+        <p>Please fill out the form below if you are interested in joining our lab.</p>
+        <p>We strongly encourage you to visit the IT:U NLP group's page to explore our current research topics before applying.</p>
+        <div class="button-container">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVnllFyucGh7IdlUMiz_R7Q4IUucIQqzlyC7KB9Vs7CnDPVQ/viewform" class="btn btn-custom">Application Form</a>
+          <a href="https://it-u.at/en/research/research-groups/natural-language-processing/" class="btn btn-custom">IT:U-NLP Group Page</a>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="opening-positions">
-    <div class="position-card">
-      <div class="card-header">
-        <h2>Post-doctoral Researchers</h2>
+    <h1>Postdoctoral Researchers</h1>
+    <p>If you want to carry out research in our group as a <strong>post-doc</strong>, there are several funding possibilities:</p>
+    
+    <div class="funding-cards">
+      <div class="funding-card">
+        <h3 class="funding-title">IT:U Postdoc Program</h3>
       </div>
-      <div class="card-body">
-        <p>If you want to carry out research in our group as a <strong>post-doc</strong>, there are several funding possibilities:</p>
-        <ul class="funding-list">
-          <li>
-            <div class="funding-item">
-              <span class="funding-title">IT:U Postdoc Program</span>
-            </div>
-          </li>
-          <li>
-            <div class="funding-item">
-              <span class="funding-title"><a href="https://ec.europa.eu/research/mariecurieactions/">Marie-Curie Postdoctoral Fellowships</a></span>
-            </div>
-          </li>
-          <li>
-            <div class="funding-item">
-              <span class="funding-title"><a href="https://www.fwf.ac.at/en/research-funding/fwf-programmes/esprit-programme">FWF ESPRIT Career Advancement for Postdocs</a></span>
-            </div>
-          </li>
-          <li>
-            <div class="funding-item">
-              <span class="funding-title"><a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/">Leopoldina Postdoc Scholarship</a></span>
-              <span class="funding-subtitle">(incoming from Germany, Austria, or Switzerland)</span>
-            </div>
-          </li>
-        </ul>
+      
+      <div class="funding-card">
+        <h3 class="funding-title">
+          <a href="https://ec.europa.eu/research/mariecurieactions/">Marie-Curie Postdoctoral Fellowships</a>
+          <i class="fas fa-external-link-alt"></i>
+        </h3>
+      </div>
+      
+      <div class="funding-card">
+        <h3 class="funding-title">
+          <a href="https://www.fwf.ac.at/en/research-funding/fwf-programmes/esprit-programme">FWF ESPRIT Career Advancement for Postdocs</a>
+          <i class="fas fa-external-link-alt"></i>
+        </h3>
+      </div>
+      
+      <div class="funding-card">
+        <h3 class="funding-title">
+          <a href="https://www.leopoldina.org/en/funding/leopoldina-fellowship-programme/leopoldina-postdoc-scholarship/">Leopoldina Postdoc Scholarship</a>
+          <i class="fas fa-external-link-alt"></i>
+        </h3>
+        <p class="funding-subtitle">(incoming from Germany, Austria, or Switzerland)</p>
       </div>
     </div>
   </div>
@@ -92,112 +92,94 @@ author_profile: true
     color: #555;
   }
 
-  .highlight-link {
-    color: #4285f4;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-
-  .highlight-link:hover {
-    color: #2a75f3;
-    text-decoration: underline;
-  }
-
   .opening-application, .opening-positions {
     margin-bottom: 30px;
   }
 
-  .application-card, .position-card {
-    display: flex;
-    flex-direction: column;
+  .application-card {
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
   }
 
-  .card-header {
-    background-color: #4285f4;
-    color: white;
-    padding: 15px 20px;
-  }
-
-  .card-header h2 {
-    margin: 0;
-    font-size: 1.5em;
-  }
-
-  .card-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: #4285f4;
-    color: white;
-    border-radius: 50%;
-    margin: 20px auto;
-    font-size: 24px;
-  }
-
-  .card-content, .card-body {
+  .card-content {
     padding: 20px;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
   }
 
   .btn {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
   }
 
-  .btn-info {
-    background-color: #4285f4;
-    color: white;
-  }
-
-  .btn-info:hover {
-    background-color: #2a75f3;
-    text-decoration: none;
-  }
-
-  .funding-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .funding-list li {
-    margin-bottom: 15px;
-    padding-left: 20px;
-    position: relative;
-  }
-
-  .funding-list li:before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #4285f4;
-    font-weight: bold;
-  }
-
-  .funding-item {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .funding-title {
-    font-weight: bold;
+  .btn-custom {
+    background-color: #a8d1ff;
     color: #333;
   }
 
+  .btn-custom:hover {
+    background-color: #86bfff;
+    text-decoration: none;
+  }
+
+  .opening-positions h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+  }
+
+  .funding-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .funding-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .funding-title {
+    margin: 0;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .funding-title a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+
+  .funding-title a:hover {
+    text-decoration: underline;
+  }
+
+  .funding-title i {
+    font-size: 0.8em;
+    margin-left: 8px;
+    color: #4285f4;
+  }
+
   .funding-subtitle {
+    margin-top: 8px;
     font-size: 0.9em;
     color: #666;
-    margin-top: 3px;
   }
 
   @media (max-width: 768px) {
@@ -207,6 +189,20 @@ author_profile: true
     
     .opening-header h1 {
       font-size: 2em;
+    }
+    
+    .funding-cards {
+      grid-template-columns: 1fr;
+    }
+    
+    .button-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .btn {
+      width: 100%;
+      text-align: center;
     }
   }
 </style>
