@@ -16,7 +16,7 @@ Welcome to the IT:U NLP Lab! Our overarching research goals are twofold: (a) to 
 
 ## Recent News
 
-**04/2025**: A warm welcome to Zhanting and Dmitry, who will be joining us as intern
+**04/2025**: A warm welcome to Zhanting and Dmitry, who will be joining us as interns
 
 **03/2025**: Minh and Debanjana have officially joined us at the IT:U-NLP Lab as our newest PhD students!
 
